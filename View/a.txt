@@ -1,0 +1,11 @@
+    <?php 
+    require_once "Model/AnuncioDAO.php";
+    require_once "Model/AnuncioDTO.php";
+    $anuncioDAO = new AnuncioDAO();
+
+    $pepe = $anuncioDAO->listarAnuncio();
+        foreach ($pepe as $p){
+          //echo $p["imagem_produto"];
+          echo '<img src="uploads/'.$p[imagem_produto].'" />';
+        }
+?>

@@ -1,0 +1,86 @@
+.main_stage {
+  width: 100%;
+
+}
+
+
+.logo {
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.logo img {
+  width: 100%;
+  height: 70px;
+}
+
+.logo h1 {
+  text-decoration: none;
+  color: #000;
+}
+
+.cabeçalho-link {
+  display: flex;
+  gap: 3rem;
+}
+
+.cabeçalho-link a {
+  color: #111;
+  font-weight: 700;
+  transition: 0.3s;
+}
+
+
+.cabeçalho-link a:hover {
+  color: #c8815f;
+}
+
+.main_stage .main_stage_content {
+  max-width: 1300px;
+  margin: 30px auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  flex-basis: 100%;
+  text-align: center;
+  font-weight: 300;
+
+
+
+}
+
+
+.table tr th {
+  font-weight: 500;
+  font-size: 1.2em;
+  background-color: #a09696;
+  color: #fff;
+}
+
+.listagem_info {
+  display: flex;
+  text-align: center;
+  margin: 50px auto;
+  color: #fff;
+  font-size: 3em;
+  margin-top: 15px 0;
+
+}
+
+.btn {
+  background-color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  color: #770f0f;
+  padding: 5px 10px;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.space {
+  padding: 15px 0;
+}

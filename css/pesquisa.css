@@ -1,0 +1,160 @@
+
+body{
+    background-color: #A60303 ;
+}
+/* PESQUISA============================================ */
+form{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1400px;
+}
+.form_content{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form_content input[type="text"]{
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 80%;
+    background: #f1f1f1;
+}
+.form_content button{
+    border: none;
+    background: #F2B807;
+    width: 20%;
+    padding: 10px;
+    color: #070708;
+    font-size: 17px;
+    border-left: none; /* Prevent double borders */
+    opacity: 0.8;
+    transition: all 0.25s;
+    cursor: pointer;
+}
+.form_content button:hover{
+    opacity: 1;
+}
+/* PESQUISA============================================ */
+
+/* RESTAURANTE=========================================== */
+.main_res{
+    display: flex;
+    max-width: 1400px;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+    margin: 10% auto;
+    background-color: #fff;
+}
+.titulo_pesquisa{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 25px 5px;
+    width: 100%;
+    height: 15px;
+    margin-top: 50px;
+    justify-content: flex-start;
+}
+.titulo_pesquisa h1{
+    color: #fff;
+    font-size: 1.3em;
+    width: 100%;
+    font-weight: 300;
+}
+.titulo_pesquisa h1::after{ content: '';
+    content: '';
+    display: block;
+    width: 25rem;
+    height: 0.2rem;
+    background-color: #F2B807;
+    margin: 1px auto;
+    position: relative;
+    border-radius: 5px}
+.content_res{
+    background-color: rgba(236, 236, 236, 0.932);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.info_res{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 15px;
+}
+.info_res:nth-child(n + 2){
+    border-top:1px solid #d3d3d3;
+}
+.infos_grup{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.img_res{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.img_res img{
+   max-width: 400px;
+   max-height: 300px;
+    border-radius: 5px;
+}
+.miniinfo_res{
+    width: 100%;
+    height: 90%;
+   padding: 0 0px;
+}
+.miniinfo_res h2{
+    justify-content: flex-start;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.miniinfo_res h2::after{ content: '';
+    display: block;
+    width: 3rem;
+    height: 0.2rem;
+    background-color: #F2B807 ;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 5px;}
+.miniinfo_res h3{
+    justify-content: flex-start;
+    font-weight: 400;
+    font-size: 1em;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.miniinfo_res h3::after{ content: '';
+    display: block;
+    width: 3rem;
+    height: 0.1rem;
+    background-color: #F2B807 ;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 5px;}
+.miniinfo_res p{
+        padding: 5px 0;
+    }
+.ver_mais_button{
+    justify-content: flex-end;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+.ver_mais_button a{
+    color: #A60303;
+}
+
+/* RESTAURANTE=========================================== */
