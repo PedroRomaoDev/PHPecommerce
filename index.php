@@ -21,6 +21,7 @@ if (isset($_SESSION["idUsuario"])) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="shortcut icon" href="img/logoaba-1.png" />
   <link rel="stylesheet" href="css/estilo.css" />
+  <link rel="stylesheet" href="css/estilopesquisa.css">
   <title>SendStyle</title>
 </head>
 
@@ -51,7 +52,11 @@ if (isset($_SESSION["idUsuario"])) {
       <h1>DESEJO</h1>
       <h1>DE EXCLUSIVIDADE!</h1>
       <p>Nunca foi tão fácil adquirir exclusividade!</p>
-      <button>ÚLTIMAS POSTAGENS</button>
+      
+      <?php 
+      include_once("View/pesquisa.php");
+      
+      ?>
     </div>
   </div>
   <!--Fim-topo-->
